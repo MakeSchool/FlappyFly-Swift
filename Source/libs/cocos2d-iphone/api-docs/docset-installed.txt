@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/gaminghorror/Library/Developer/Shared/Documentation/DocSets/org.cocos2d.Cocos2D.docset
+Time: 2014-11-20 19:59:09 +0000

@@ -1,0 +1,929 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCPackageManagerDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cocos2D </a></h1>
+				<a id="developerHome" href="../index.html">3.2.0</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCPackageManagerDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/customFolderName:packageContents:">&nbsp;&nbsp;&nbsp;&nbsp;- customFolderName:packageContents:</option>
+	
+	<option value="//api/name/packageDownloadFailed:error:">&nbsp;&nbsp;&nbsp;&nbsp;- packageDownloadFailed:error:</option>
+	
+	<option value="//api/name/packageDownloadFinished:">&nbsp;&nbsp;&nbsp;&nbsp;- packageDownloadFinished:</option>
+	
+	<option value="//api/name/packageDownloadProgress:downloadedBytes:totalBytes:">&nbsp;&nbsp;&nbsp;&nbsp;- packageDownloadProgress:downloadedBytes:totalBytes:</option>
+	
+	<option value="//api/name/packageInstallationFailed:error:">&nbsp;&nbsp;&nbsp;&nbsp;- packageInstallationFailed:error:</option>
+	
+	<option value="//api/name/packageInstallationFinished:">&nbsp;&nbsp;&nbsp;&nbsp;- packageInstallationFinished:</option>
+	
+	<option value="//api/name/packageUnzippingFailed:error:">&nbsp;&nbsp;&nbsp;&nbsp;- packageUnzippingFailed:error:</option>
+	
+	<option value="//api/name/packageUnzippingFinished:">&nbsp;&nbsp;&nbsp;&nbsp;- packageUnzippingFinished:</option>
+	
+	<option value="//api/name/packageUnzippingProgress:unzippedBytes:totalBytes:">&nbsp;&nbsp;&nbsp;&nbsp;- packageUnzippingProgress:unzippedBytes:totalBytes:</option>
+	
+	<option value="//api/name/passwordForPackageZipFile:">&nbsp;&nbsp;&nbsp;&nbsp;- passwordForPackageZipFile:</option>
+	
+	<option value="//api/name/request:ofPackage:">&nbsp;&nbsp;&nbsp;&nbsp;- request:ofPackage:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/customFolderName:packageContents:">customFolderName:packageContents:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageDownloadFailed:error:">packageDownloadFailed:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageDownloadFinished:">packageDownloadFinished:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageDownloadProgress:downloadedBytes:totalBytes:">packageDownloadProgress:downloadedBytes:totalBytes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageInstallationFailed:error:">packageInstallationFailed:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageInstallationFinished:">packageInstallationFinished:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageUnzippingFailed:error:">packageUnzippingFailed:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageUnzippingFinished:">packageUnzippingFinished:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packageUnzippingProgress:unzippedBytes:totalBytes:">packageUnzippingProgress:unzippedBytes:totalBytes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/passwordForPackageZipFile:">passwordForPackageZipFile:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/request:ofPackage:">request:ofPackage:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCPackageManagerDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCPackageManagerDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCPackageManagerDelegate.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageInstallationFinished:">&ndash;&nbsp;packageInstallationFinished:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageInstallationFailed:error:">&ndash;&nbsp;packageInstallationFailed:error:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageDownloadFinished:">&ndash;&nbsp;packageDownloadFinished:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageDownloadFailed:error:">&ndash;&nbsp;packageDownloadFailed:error:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageDownloadProgress:downloadedBytes:totalBytes:">&ndash;&nbsp;packageDownloadProgress:downloadedBytes:totalBytes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageUnzippingFinished:">&ndash;&nbsp;packageUnzippingFinished:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageUnzippingFailed:error:">&ndash;&nbsp;packageUnzippingFailed:error:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packageUnzippingProgress:unzippedBytes:totalBytes:">&ndash;&nbsp;packageUnzippingProgress:unzippedBytes:totalBytes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/customFolderName:packageContents:">&ndash;&nbsp;customFolderName:packageContents:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/passwordForPackageZipFile:">&ndash;&nbsp;passwordForPackageZipFile:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/request:ofPackage:">&ndash;&nbsp;request:ofPackage:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/customFolderName:packageContents:" title="customFolderName:packageContents:"></a>
+	<h3 class="subsubtitle method-title">customFolderName:packageContents:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>When a package is installed the root object of an unzipped package should be a folder named with the
+standard identifier(<NAME>-<OS>-<RESOLUTION>).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)customFolderName:(CCPackage *)<em>package</em> packageContents:(NSArray *)<em>packageContents</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the unzipped folder name should be determined</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>packageContens</em></dt>
+			<dd><p>A list of URLs of unzipped package&rsquo;s first level directory</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The folder name of the package</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The package installer will first try to find a folder with the standard identifier. If that fails you can
+omplement this method if a package contains a folder named other than the standard identifier.
+The content of the unzipped package is provided to select a folder name.
+If finding the standard identifier fails and this method is not implemented the installation will fail-</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageDownloadFailed:error:" title="packageDownloadFailed:error:"></a>
+	<h3 class="subsubtitle method-title">packageDownloadFailed:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Only called when a download of a package failed, see error pointer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageDownloadFailed:(CCPackage *)<em>package</em> error:(NSError *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the download failed</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>Pointer to an error object</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageDownloadFinished:" title="packageDownloadFinished:"></a>
+	<h3 class="subsubtitle method-title">packageDownloadFinished:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when a download of a package finished successfully</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageDownloadFinished:(CCPackage *)<em>package</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the download finished</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageDownloadProgress:downloadedBytes:totalBytes:" title="packageDownloadProgress:downloadedBytes:totalBytes:"></a>
+	<h3 class="subsubtitle method-title">packageDownloadProgress:downloadedBytes:totalBytes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called whenever the download of a package received bytes.
+Note: Total bytes can be 0 throughout a download if the response does not contain a Content-Length header.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageDownloadProgress:(CCPackage *)<em>package</em> downloadedBytes:(NSUInteger)<em>downloadedBytes</em> totalBytes:(NSUInteger)<em>totalBytes</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the download progress occured</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>downloadedBytes</em></dt>
+			<dd><p>Download progress in bytes</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>totalBytes</em></dt>
+			<dd><p>Total size of the download in bytes</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageInstallationFailed:error:" title="packageInstallationFailed:error:"></a>
+	<h3 class="subsubtitle method-title">packageInstallationFailed:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Only called when something went wrong during installation</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageInstallationFailed:(CCPackage *)<em>package</em> error:(NSError *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the installation failed</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>Pointer to an error object*</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageInstallationFinished:" title="packageInstallationFinished:"></a>
+	<h3 class="subsubtitle method-title">packageInstallationFinished:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Only called when the full process of downloading, unzipping and installation completed successfully</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageInstallationFinished:(CCPackage *)<em>package</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the installation finished</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageUnzippingFailed:error:" title="packageUnzippingFailed:error:"></a>
+	<h3 class="subsubtitle method-title">packageUnzippingFailed:error:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Only called when the process of unzipping failed</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageUnzippingFailed:(CCPackage *)<em>package</em> error:(NSError *)<em>error</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the unzip process failed</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>error</em></dt>
+			<dd><p>Pointer to an error object</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageUnzippingFinished:" title="packageUnzippingFinished:"></a>
+	<h3 class="subsubtitle method-title">packageUnzippingFinished:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Only called when the process of unzipping finished successfully</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageUnzippingFinished:(CCPackage *)<em>package</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the unzip process finished</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packageUnzippingProgress:unzippedBytes:totalBytes:" title="packageUnzippingProgress:unzippedBytes:totalBytes:"></a>
+	<h3 class="subsubtitle method-title">packageUnzippingProgress:unzippedBytes:totalBytes:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Called whenever the process of unzipping reports a progress in bytes</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)packageUnzippingProgress:(CCPackage *)<em>package</em> unzippedBytes:(NSUInteger)<em>unzippedBytes</em> totalBytes:(NSUInteger)<em>totalBytes</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the unzip progress occured</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>unzippedBytes</em></dt>
+			<dd><p>Unzip progress in bytes</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>totalBytes</em></dt>
+			<dd><p>Total size of the unzipping operation</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/passwordForPackageZipFile:" title="passwordForPackageZipFile:"></a>
+	<h3 class="subsubtitle method-title">passwordForPackageZipFile:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provide this method if you want to set a password to unzip a protected zip archive.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)passwordForPackageZipFile:(CCPackage *)<em>package</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>package</em></dt>
+			<dd><p>The package for which the password should be set</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The password to be used to unzip a package archive</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/request:ofPackage:" title="request:ofPackage:"></a>
+	<h3 class="subsubtitle method-title">request:ofPackage:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Provides the request before it is sent to let delegate adjust headers etc.
+If there is a partial download which should be resumed a Range header will be set after this invocation.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)request:(NSMutableURLRequest *)<em>request</em> ofPackage:(CCPackage *)<em>package</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>request</em></dt>
+			<dd><p>The request object that will be used for the download</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>download</em></dt>
+			<dd><p>The download object which will start with the given request</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCPackageManagerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 3.2.0. All rights reserved. (Last updated: 2014-11-20)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

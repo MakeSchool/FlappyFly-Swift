@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCPackageManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCPackageManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="114"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/setInstalledPackagesPath:</TokenIdentifier>
+			<Abstract type="html">The path where all installed packages are stored. Default is /Library/Caches/Packages</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *installedPackagesPath</Declaration>
+			
+			
+			<Anchor>//api/name/installedPackagesPath</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/installedPackagesPath</TokenIdentifier>
+			<Abstract type="html">The path where all installed packages are stored. Default is /Library/Caches/Packages</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *installedPackagesPath</Declaration>
+			
+			
+			<Anchor>//api/name/installedPackagesPath</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageManager/installedPackagesPath</TokenIdentifier>
+			<Abstract type="html">The path where all installed packages are stored. Default is /Library/Caches/Packages</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *installedPackagesPath</Declaration>
+			
+			
+			<Anchor>//api/name/installedPackagesPath</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/setBaseURL:</TokenIdentifier>
+			<Abstract type="html">URL used as base to locate packages. A package standard identifier is added to create a full URL.
+BaseURL is only used in conjunction with downloadPackageWithName:resolution:enableAfterDownload. More details below.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSURL *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/baseURL</TokenIdentifier>
+			<Abstract type="html">URL used as base to locate packages. A package standard identifier is added to create a full URL.
+BaseURL is only used in conjunction with downloadPackageWithName:resolution:enableAfterDownload. More details below.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSURL *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageManager/baseURL</TokenIdentifier>
+			<Abstract type="html">URL used as base to locate packages. A package standard identifier is added to create a full URL.
+BaseURL is only used in conjunction with downloadPackageWithName:resolution:enableAfterDownload. More details below.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSURL *baseURL</Declaration>
+			
+			
+			<Anchor>//api/name/baseURL</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/setAllPackages:</TokenIdentifier>
+			<Abstract type="html">Returns all packages managed by the CCPackageManager</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allPackages</Declaration>
+			
+			
+			<Anchor>//api/name/allPackages</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/allPackages</TokenIdentifier>
+			<Abstract type="html">Returns all packages managed by the CCPackageManager</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allPackages</Declaration>
+			
+			
+			<Anchor>//api/name/allPackages</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageManager/allPackages</TokenIdentifier>
+			<Abstract type="html">Returns all packages managed by the CCPackageManager</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allPackages</Declaration>
+			
+			
+			<Anchor>//api/name/allPackages</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/setResumeDownloads:</TokenIdentifier>
+			<Abstract type="html">If downloads should be resumed if partial downloads found
+Default is YES</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL resumeDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownloads</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/resumeDownloads</TokenIdentifier>
+			<Abstract type="html">If downloads should be resumed if partial downloads found
+Default is YES</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL resumeDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownloads</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageManager/resumeDownloads</TokenIdentifier>
+			<Abstract type="html">If downloads should be resumed if partial downloads found
+Default is YES</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL resumeDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownloads</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Package manager&apos;s delegate</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/delegate</TokenIdentifier>
+			<Abstract type="html">Package manager&apos;s delegate</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageManager/delegate</TokenIdentifier>
+			<Abstract type="html">Package manager&apos;s delegate</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/setUnzippingQueue:</TokenIdentifier>
+			<Abstract type="html">The queue on which unzipping of packages is achieved, default is DISPATCHQUEUEPRIORITY_LOW.
+On iOS 5.0, MacOS 10.7 and below you have to get rid of the queue after use if it&apos;s not a global one.
+If set to nil, queue will be reset to default.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t unzippingQueue</Declaration>
+			
+			
+			<Anchor>//api/name/unzippingQueue</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/unzippingQueue</TokenIdentifier>
+			<Abstract type="html">The queue on which unzipping of packages is achieved, default is DISPATCHQUEUEPRIORITY_LOW.
+On iOS 5.0, MacOS 10.7 and below you have to get rid of the queue after use if it&apos;s not a global one.
+If set to nil, queue will be reset to default.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t unzippingQueue</Declaration>
+			
+			
+			<Anchor>//api/name/unzippingQueue</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageManager/unzippingQueue</TokenIdentifier>
+			<Abstract type="html">The queue on which unzipping of packages is achieved, default is DISPATCHQUEUEPRIORITY_LOW.
+On iOS 5.0, MacOS 10.7 and below you have to get rid of the queue after use if it&apos;s not a global one.
+If set to nil, queue will be reset to default.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) dispatch_queue_t unzippingQueue</Declaration>
+			
+			
+			<Anchor>//api/name/unzippingQueue</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCPackageManager/sharedManager</TokenIdentifier>
+			<Abstract type="html">Returns a shared instance of the CCPackageManager, this is the suggested way to use the manager.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>+ (CCPackageManager *)sharedManager</Declaration>
+			
+			
+			<Anchor>//api/name/sharedManager</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/loadPackages</TokenIdentifier>
+			<Abstract type="html">Loads all packages from user defaults. Supposed to be invoked after app finished launching and Cocos2d has been set up.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)loadPackages</Declaration>
+			
+			
+			<Anchor>//api/name/loadPackages</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/savePackages</TokenIdentifier>
+			<Abstract type="html">Persists all packages to user defaults. Save often! Suggestion is to save on Application will terminate and will enter background.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)savePackages</Declaration>
+			
+			
+			<Anchor>//api/name/savePackages</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/packageWithName:</TokenIdentifier>
+			<Abstract type="html">Returns a package identified by name. Resolution and OS are determined implicitly.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (CCPackage *)packageWithName:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name of the package</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageWithName:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/downloadPackageWithName:enableAfterDownload:</TokenIdentifier>
+			<Abstract type="html">The all inclsuive method to add a package to your app.
+Returns a new package immediately which will be downloaded, unzipped and installed asynchronously to the Packages folder in /Library/Caches (default)
+OS and resolution are determined implicitly. Resolution is derived from CCFileUtils&apos; searchResolutionsOrder first entry.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (CCPackage *)downloadPackageWithName:(NSString *)name enableAfterDownload:(BOOL)enableAfterDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name of the package</Abstract>
+				</Parameter><Parameter>
+					<Name>enableAfterDownload</Name>
+					<Abstract type="html">If the package should be enabled in cocos2d after download. You can enable it with the enablePackage: method later on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadPackageWithName:enableAfterDownload:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/downloadPackageWithName:resolution:enableAfterDownload:</TokenIdentifier>
+			<Abstract type="html">Like the method above. Instead of using the baseURL, name and resolution you can provide the URL directly.
+Returns a new package immediately which will be downloaded, unzipped and installed asynchronously to the Packages folder in /Library/Caches (default)
+OS is determined implicitly.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (CCPackage *)downloadPackageWithName:(NSString *)name resolution:(NSString *)resolution enableAfterDownload:(BOOL)enableAfterDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name of the package</Abstract>
+				</Parameter><Parameter>
+					<Name>resolution</Name>
+					<Abstract type="html">Resolution of the package, e.g. phonehd, tablethd etc.</Abstract>
+				</Parameter><Parameter>
+					<Name>enableAfterDownload</Name>
+					<Abstract type="html">If the package should be enabled in cocos2d after download. You can enable it with the enablePackage: method later on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadPackageWithName:resolution:enableAfterDownload:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/downloadPackageWithName:remoteURL:enableAfterDownload:</TokenIdentifier>
+			<Abstract type="html">Like the method above. Instead of using the baseURL and name  you can provide the URL directly.
+OS and resolution are determined implicitly. Resolution is derived from CCFileUtils&apos; searchResolutionsOrder first entry.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (CCPackage *)downloadPackageWithName:(NSString *)name remoteURL:(NSURL *)remoteURL enableAfterDownload:(BOOL)enableAfterDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name of the package</Abstract>
+				</Parameter><Parameter>
+					<Name>remoteURL</Name>
+					<Abstract type="html">URL of the package to be downloaded</Abstract>
+				</Parameter><Parameter>
+					<Name>enableAfterDownload</Name>
+					<Abstract type="html">If the package should be enabled in cocos2d after download. You can enable it with the enablePackage: method later on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadPackageWithName:remoteURL:enableAfterDownload:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/downloadPackageWithName:resolution:remoteURL:enableAfterDownload:</TokenIdentifier>
+			<Abstract type="html">Like the method above. Instead of using the baseURL, name and resolution you can provide the URL directly.
+OS is determined implicitly.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (CCPackage *)downloadPackageWithName:(NSString *)name resolution:(NSString *)resolution remoteURL:(NSURL *)remoteURL enableAfterDownload:(BOOL)enableAfterDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">Name of the package</Abstract>
+				</Parameter><Parameter>
+					<Name>resolution</Name>
+					<Abstract type="html">Resolution of the package, e.g. phonehd, tablethd etc.</Abstract>
+				</Parameter><Parameter>
+					<Name>remoteURL</Name>
+					<Abstract type="html">URL of the package to be downloaded</Abstract>
+				</Parameter><Parameter>
+					<Name>enableAfterDownload</Name>
+					<Abstract type="html">If the package should be enabled in cocos2d after download. You can enable it with the enablePackage: method later on.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadPackageWithName:resolution:remoteURL:enableAfterDownload:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/downloadPackage:enableAfterDownload:</TokenIdentifier>
+			<Abstract type="html">Downloads a package. If the package was not managed before it will be added to the managed packages.
+A download will only start if the status is CCPackageStatusInitial, CCPackageStatusDownloadFailed.
+A package with status CCPackageStatusDownloadPaused will be resumed if possible.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)downloadPackage:(CCPackage *)package enableAfterDownload:(BOOL)enableAfterDownload</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>enableAfterDownload</Name>
+					<Abstract type="html">If the package should be enabled in cocos2d after download. You can enable it with the enablePackage: method later on.</Abstract>
+				</Parameter><Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The package to be manager by the package manager</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadPackage:enableAfterDownload:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/disablePackage:error:</TokenIdentifier>
+			<Abstract type="html">Disables a package. Only packages with state CCPackageStatusInstalledEnabled can be disabled.
+The package is removed from cocos2d&apos;s search, sprite sheets and filename lookups are reloaded.
+Package will be added to managed packages if it was not.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)disablePackage:(CCPackage *)package error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package to be disabled</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Error pointer with details about a failed operation</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Success(YES) or failure(NO) of the operation</Abstract></ReturnValue>
+			<Anchor>//api/name/disablePackage:error:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/enablePackage:error:</TokenIdentifier>
+			<Abstract type="html">Enables a package. Only packages with state CCPackageStatusInstalledDisabled can be enabled.
+Package will be added to managed packages if it was not.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)enablePackage:(CCPackage *)package error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package to be enabled</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Error pointer with details about a failed operation</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Success(YES) or failure(NO) of the operation</Abstract></ReturnValue>
+			<Anchor>//api/name/enablePackage:error:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/addPackage:</TokenIdentifier>
+			<Abstract type="html">Adds a package to the package manager. Only packages with status initial can be added.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)addPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package to be added to the package manager</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addPackage:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/deletePackage:error:</TokenIdentifier>
+			<Abstract type="html">Deletes a package.
+Will disable the package first and delete it from disk. Temp download and unzip files will be removed as well.
+A package that is being unzipped cannot be deleted. Try after the unzipping finished.
+The status will become CCPackageStatusDeleted in case you still hold a reference to the object.
+localDownloURL, unzipURL and installURL will be nil after a succesful deletion.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)deletePackage:(CCPackage *)package error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package to be deleted</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Error pointer with details about a failed operation</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Success(YES) or failure(NO) of the operation</Abstract></ReturnValue>
+			<Anchor>//api/name/deletePackage:error:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/cancelDownloadOfPackage:</TokenIdentifier>
+			<Abstract type="html">Cancels the download of a package if the package has one of the following status:
+CCPackageStatusDownloadPaused, CCPackageStatusDownloading, CCPackageStatusDownloaded, CCPackageStatusDownloadFailed
+Status of package is reset to CCPackageStatusInitial.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelDownloadOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package which download should be cancelled</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelDownloadOfPackage:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/pauseDownloadOfPackage:</TokenIdentifier>
+			<Abstract type="html">Pauses the download of a package.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseDownloadOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package which download should be paused</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pauseDownloadOfPackage:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/resumeDownloadOfPackage:</TokenIdentifier>
+			<Abstract type="html">Resumes the download of a package.</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeDownloadOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package which download should be resumed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resumeDownloadOfPackage:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/pauseAllDownloads</TokenIdentifier>
+			<Abstract type="html">Pauses all downloads of packages</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseAllDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/pauseAllDownloads</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageManager/resumeAllDownloads</TokenIdentifier>
+			<Abstract type="html">Resumes all downloads of packages</Abstract>
+			<DeclaredIn>CCPackageManager.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeAllDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeAllDownloads</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCLightNode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCLightNode</TokenIdentifier>
+			<Abstract type="html">CCLightNode allows the user to define lights that will be used with
+CCEffectLighting.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="101"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setType:</TokenIdentifier>
+			<Abstract type="html">The type of the light. The contribution of point lights is dependent on
+the relative positions of the light and the node it is lighting. The
+contribution of directional lights is only dependent on the light&apos;s
+orientation (as if it is infinitely far away). Spot lights behave like
+point lights but they also have a direction vector and cutoff angle.
+If the angle between the light&apos;s direction vector and the vector from
+the light to the node exceeds the cutoff angle then the light no longer
+contributes to the lighting of the node.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCLightType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/type</TokenIdentifier>
+			<Abstract type="html">The type of the light. The contribution of point lights is dependent on
+the relative positions of the light and the node it is lighting. The
+contribution of directional lights is only dependent on the light&apos;s
+orientation (as if it is infinitely far away). Spot lights behave like
+point lights but they also have a direction vector and cutoff angle.
+If the angle between the light&apos;s direction vector and the vector from
+the light to the node exceeds the cutoff angle then the light no longer
+contributes to the lighting of the node.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCLightType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/type</TokenIdentifier>
+			<Abstract type="html">The type of the light. The contribution of point lights is dependent on
+the relative positions of the light and the node it is lighting. The
+contribution of directional lights is only dependent on the light&apos;s
+orientation (as if it is infinitely far away). Spot lights behave like
+point lights but they also have a direction vector and cutoff angle.
+If the angle between the light&apos;s direction vector and the vector from
+the light to the node exceeds the cutoff angle then the light no longer
+contributes to the lighting of the node.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCLightType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setGroups:</TokenIdentifier>
+			<Abstract type="html">The groups that this light belongs to. Instances of CCEffectLighting also
+belong to groups. The intersection of a light effect&apos;s groups and a light
+node&apos;s groups determine whether or not a light node contributes to a light
+effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/groups</TokenIdentifier>
+			<Abstract type="html">The groups that this light belongs to. Instances of CCEffectLighting also
+belong to groups. The intersection of a light effect&apos;s groups and a light
+node&apos;s groups determine whether or not a light node contributes to a light
+effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/groups</TokenIdentifier>
+			<Abstract type="html">The groups that this light belongs to. Instances of CCEffectLighting also
+belong to groups. The intersection of a light effect&apos;s groups and a light
+node&apos;s groups determine whether or not a light node contributes to a light
+effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setColor:</TokenIdentifier>
+			<Abstract type="html">The primary color of the light. As described below, the color is modulated by the
+intensity value to determine the contribution of the light to the lighting
+effect. This color is used when computing the light&apos;s position and orientation
+dependent contribution to the lighting effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/color</TokenIdentifier>
+			<Abstract type="html">The primary color of the light. As described below, the color is modulated by the
+intensity value to determine the contribution of the light to the lighting
+effect. This color is used when computing the light&apos;s position and orientation
+dependent contribution to the lighting effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/color</TokenIdentifier>
+			<Abstract type="html">The primary color of the light. As described below, the color is modulated by the
+intensity value to determine the contribution of the light to the lighting
+effect. This color is used when computing the light&apos;s position and orientation
+dependent contribution to the lighting effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setIntensity:</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s primary color. This value is in the range [0..1]
+with 0 resulting in no contribution from this light in the final image (the light
+effectively becomes black) and 1 resulting in full contribution from this
+light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/intensity</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s primary color. This value is in the range [0..1]
+with 0 resulting in no contribution from this light in the final image (the light
+effectively becomes black) and 1 resulting in full contribution from this
+light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/intensity</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s primary color. This value is in the range [0..1]
+with 0 resulting in no contribution from this light in the final image (the light
+effectively becomes black) and 1 resulting in full contribution from this
+light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float intensity</Declaration>
+			
+			
+			<Anchor>//api/name/intensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setSpecularColor:</TokenIdentifier>
+			<Abstract type="html">The specular color of the light. As described below, the color is modulated by the
+specular intensity value to determine the contribution of the light to the lighting
+effect. This color is used when computing the light&apos;s specular (shiny) contribution
+to the lighting effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *specularColor</Declaration>
+			
+			
+			<Anchor>//api/name/specularColor</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/specularColor</TokenIdentifier>
+			<Abstract type="html">The specular color of the light. As described below, the color is modulated by the
+specular intensity value to determine the contribution of the light to the lighting
+effect. This color is used when computing the light&apos;s specular (shiny) contribution
+to the lighting effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *specularColor</Declaration>
+			
+			
+			<Anchor>//api/name/specularColor</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/specularColor</TokenIdentifier>
+			<Abstract type="html">The specular color of the light. As described below, the color is modulated by the
+specular intensity value to determine the contribution of the light to the lighting
+effect. This color is used when computing the light&apos;s specular (shiny) contribution
+to the lighting effect.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *specularColor</Declaration>
+			
+			
+			<Anchor>//api/name/specularColor</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setSpecularIntensity:</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s specular color. This value is in the range [0..1]
+with 0 resulting in no contribution from the specular color to the final image
+(the specular color effectively becomes black) and 1 resulting in full contribution
+from this light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float specularIntensity</Declaration>
+			
+			
+			<Anchor>//api/name/specularIntensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/specularIntensity</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s specular color. This value is in the range [0..1]
+with 0 resulting in no contribution from the specular color to the final image
+(the specular color effectively becomes black) and 1 resulting in full contribution
+from this light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float specularIntensity</Declaration>
+			
+			
+			<Anchor>//api/name/specularIntensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/specularIntensity</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s specular color. This value is in the range [0..1]
+with 0 resulting in no contribution from the specular color to the final image
+(the specular color effectively becomes black) and 1 resulting in full contribution
+from this light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float specularIntensity</Declaration>
+			
+			
+			<Anchor>//api/name/specularIntensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setAmbientColor:</TokenIdentifier>
+			<Abstract type="html">The ambient color of the light. As described below, the color is modulated by the
+ambient intensity value to determine the contribution of the light to the lighting
+effect. The ambient color contributes to the lighting effect independent of the light&apos;s
+position and orientation relative to the affected node.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *ambientColor</Declaration>
+			
+			
+			<Anchor>//api/name/ambientColor</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/ambientColor</TokenIdentifier>
+			<Abstract type="html">The ambient color of the light. As described below, the color is modulated by the
+ambient intensity value to determine the contribution of the light to the lighting
+effect. The ambient color contributes to the lighting effect independent of the light&apos;s
+position and orientation relative to the affected node.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *ambientColor</Declaration>
+			
+			
+			<Anchor>//api/name/ambientColor</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/ambientColor</TokenIdentifier>
+			<Abstract type="html">The ambient color of the light. As described below, the color is modulated by the
+ambient intensity value to determine the contribution of the light to the lighting
+effect. The ambient color contributes to the lighting effect independent of the light&apos;s
+position and orientation relative to the affected node.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *ambientColor</Declaration>
+			
+			
+			<Anchor>//api/name/ambientColor</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setAmbientIntensity:</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s ambient color. This value is in the range [0..1]
+with 0 resulting in no contribution from the ambient color to the final image
+(the ambient color effectively becomes black) and 1 resulting in full contribution
+from this light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float ambientIntensity</Declaration>
+			
+			
+			<Anchor>//api/name/ambientIntensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/ambientIntensity</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s ambient color. This value is in the range [0..1]
+with 0 resulting in no contribution from the ambient color to the final image
+(the ambient color effectively becomes black) and 1 resulting in full contribution
+from this light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float ambientIntensity</Declaration>
+			
+			
+			<Anchor>//api/name/ambientIntensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/ambientIntensity</TokenIdentifier>
+			<Abstract type="html">The brightness of the light&apos;s ambient color. This value is in the range [0..1]
+with 0 resulting in no contribution from the ambient color to the final image
+(the ambient color effectively becomes black) and 1 resulting in full contribution
+from this light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float ambientIntensity</Declaration>
+			
+			
+			<Anchor>//api/name/ambientIntensity</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setCutoffRadius:</TokenIdentifier>
+			<Abstract type="html">The radius of influence of a point light. When the distance from a sprite to this light
+is less than or equal to the radius, the sprite will be lit by this light. If the
+distance is greater, the sprite will not be lit by this light. This distance is
+measured in points. Setting this value to zero disables light cutoff. This propery
+has no effect on directional lights.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float cutoffRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cutoffRadius</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/cutoffRadius</TokenIdentifier>
+			<Abstract type="html">The radius of influence of a point light. When the distance from a sprite to this light
+is less than or equal to the radius, the sprite will be lit by this light. If the
+distance is greater, the sprite will not be lit by this light. This distance is
+measured in points. Setting this value to zero disables light cutoff. This propery
+has no effect on directional lights.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float cutoffRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cutoffRadius</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/cutoffRadius</TokenIdentifier>
+			<Abstract type="html">The radius of influence of a point light. When the distance from a sprite to this light
+is less than or equal to the radius, the sprite will be lit by this light. If the
+distance is greater, the sprite will not be lit by this light. This distance is
+measured in points. Setting this value to zero disables light cutoff. This propery
+has no effect on directional lights.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float cutoffRadius</Declaration>
+			
+			
+			<Anchor>//api/name/cutoffRadius</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setHalfRadius:</TokenIdentifier>
+			<Abstract type="html">The radius at which point the light&apos;s intensity has fallen off to half of its maximum
+value. The value is specified in normalized units where 0 equals 0 points, and 1 equals
+cutoffRadius points. This propery has no effect on directional lights.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float halfRadius</Declaration>
+			
+			
+			<Anchor>//api/name/halfRadius</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/halfRadius</TokenIdentifier>
+			<Abstract type="html">The radius at which point the light&apos;s intensity has fallen off to half of its maximum
+value. The value is specified in normalized units where 0 equals 0 points, and 1 equals
+cutoffRadius points. This propery has no effect on directional lights.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float halfRadius</Declaration>
+			
+			
+			<Anchor>//api/name/halfRadius</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/halfRadius</TokenIdentifier>
+			<Abstract type="html">The radius at which point the light&apos;s intensity has fallen off to half of its maximum
+value. The value is specified in normalized units where 0 equals 0 points, and 1 equals
+cutoffRadius points. This propery has no effect on directional lights.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float halfRadius</Declaration>
+			
+			
+			<Anchor>//api/name/halfRadius</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/setDepth:</TokenIdentifier>
+			<Abstract type="html">The light&apos;s depth value within the scene. This value is independent of the node
+z-order which is used for sorting and is instead used by the lighting equations
+when computing the light&apos;s direction vector relative to the nodes it is lighting.
+Only values greater than or equal to 0 are valid. A depth value of 0 makes the light
+coplanar with any nodes it is lighting which results in a very hard looking side light.
+Increasingly positive values move the light farther and farther out of the plane of
+the lit nodes resulting in a softer looking front light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float depth</Declaration>
+			
+			
+			<Anchor>//api/name/depth</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/depth</TokenIdentifier>
+			<Abstract type="html">The light&apos;s depth value within the scene. This value is independent of the node
+z-order which is used for sorting and is instead used by the lighting equations
+when computing the light&apos;s direction vector relative to the nodes it is lighting.
+Only values greater than or equal to 0 are valid. A depth value of 0 makes the light
+coplanar with any nodes it is lighting which results in a very hard looking side light.
+Increasingly positive values move the light farther and farther out of the plane of
+the lit nodes resulting in a softer looking front light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float depth</Declaration>
+			
+			
+			<Anchor>//api/name/depth</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLightNode/depth</TokenIdentifier>
+			<Abstract type="html">The light&apos;s depth value within the scene. This value is independent of the node
+z-order which is used for sorting and is instead used by the lighting equations
+when computing the light&apos;s direction vector relative to the nodes it is lighting.
+Only values greater than or equal to 0 are valid. A depth value of 0 makes the light
+coplanar with any nodes it is lighting which results in a very hard looking side light.
+Increasingly positive values move the light farther and farther out of the plane of
+the lit nodes resulting in a softer looking front light.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float depth</Declaration>
+			
+			
+			<Anchor>//api/name/depth</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/init</TokenIdentifier>
+			<Abstract type="html">Initializes a point light with a white color and full intensity.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">The CCLightNode object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/initWithType:groups:color:intensity:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCLightNode object with the specified parameters.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithType:(CCLightType)type groups:(NSArray *)groups color:(CCColor *)color intensity:(float)intensity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>groups</Name>
+					<Abstract type="html">The groups this light belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The primary color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>intensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s primary color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCLighttNode object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithType:groups:color:intensity:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightNode/initWithType:groups:color:intensity:specularColor:specularIntensity:ambientColor:ambientIntensity:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCLightNode object with the specified parameters.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithType:(CCLightType)type groups:(NSArray *)groups color:(CCColor *)color intensity:(float)intensity specularColor:(CCColor *)specularColor specularIntensity:(float)specularIntensity ambientColor:(CCColor *)ambientColor ambientIntensity:(float)ambientIntensity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>groups</Name>
+					<Abstract type="html">The groups this light belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The primary color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>intensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s primary color.</Abstract>
+				</Parameter><Parameter>
+					<Name>specularColor</Name>
+					<Abstract type="html">The specular color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>specularIntensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s specular color.</Abstract>
+				</Parameter><Parameter>
+					<Name>ambientColor</Name>
+					<Abstract type="html">The ambient color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>ambientIntensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s ambient color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCLighttNode object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithType:groups:color:intensity:specularColor:specularIntensity:ambientColor:ambientIntensity:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLightNode/lightWithType:groups:color:intensity:</TokenIdentifier>
+			<Abstract type="html">Creates a CCLightNode object with the specified parameters.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)lightWithType:(CCLightType)type groups:(NSArray *)groups color:(CCColor *)color intensity:(float)intensity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>groups</Name>
+					<Abstract type="html">The groups this light belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The primary color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>intensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s primary color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized CCLightNode object.</Abstract></ReturnValue>
+			<Anchor>//api/name/lightWithType:groups:color:intensity:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLightNode/lightWithType:groups:color:intensity:specularColor:specularIntensity:ambientColor:ambientIntensity:</TokenIdentifier>
+			<Abstract type="html">Creates a CCLightNode object with the specified parameters.</Abstract>
+			<DeclaredIn>CCLightNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)lightWithType:(CCLightType)type groups:(NSArray *)groups color:(CCColor *)color intensity:(float)intensity specularColor:(CCColor *)specularColor specularIntensity:(float)specularIntensity ambientColor:(CCColor *)ambientColor ambientIntensity:(float)ambientIntensity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>groups</Name>
+					<Abstract type="html">The groups this light belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>color</Name>
+					<Abstract type="html">The primary color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>intensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s primary color.</Abstract>
+				</Parameter><Parameter>
+					<Name>specularColor</Name>
+					<Abstract type="html">The specular color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>specularIntensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s specular color.</Abstract>
+				</Parameter><Parameter>
+					<Name>ambientColor</Name>
+					<Abstract type="html">The ambient color of the light.</Abstract>
+				</Parameter><Parameter>
+					<Name>ambientIntensity</Name>
+					<Abstract type="html">The brightness of the light&apos;s ambient color.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An initialized CCLightNode object.</Abstract></ReturnValue>
+			<Anchor>//api/name/lightWithType:groups:color:intensity:specularColor:specularIntensity:ambientColor:ambientIntensity:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

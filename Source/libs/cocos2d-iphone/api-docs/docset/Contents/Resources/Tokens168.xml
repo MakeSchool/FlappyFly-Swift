@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CCShaderAttribute.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CCShaderAttribute</TokenIdentifier>
+			<Abstract type="html">GL attribute locations for built-in Cocos2D vertex attributes.</Abstract>
+			<DeclaredIn>CCShader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="168"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCShaderAttributePosition</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCShaderAttributePosition</Declaration>
+            
+            <DeclaredIn>CCShader.h</DeclaredIn>
+            
+            <NodeRef refid="168"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCShaderAttributeTexCoord1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCShaderAttributeTexCoord1</Declaration>
+            
+            <DeclaredIn>CCShader.h</DeclaredIn>
+            
+            <NodeRef refid="168"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCShaderAttributeTexCoord2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCShaderAttributeTexCoord2</Declaration>
+            
+            <DeclaredIn>CCShader.h</DeclaredIn>
+            
+            <NodeRef refid="168"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCShaderAttributeColor</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCShaderAttributeColor</Declaration>
+            
+            <DeclaredIn>CCShader.h</DeclaredIn>
+            
+            <NodeRef refid="168"/>
+        </Token>
+        
+	</File>
+</Tokens>

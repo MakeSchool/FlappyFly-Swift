@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCPackageDownloadManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCPackageDownloadManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="111"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/setAllDownloads:</TokenIdentifier>
+			<Abstract type="html">All active downloads</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *allDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/allDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/allDownloads</TokenIdentifier>
+			<Abstract type="html">All active downloads</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *allDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/allDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownloadManager/allDownloads</TokenIdentifier>
+			<Abstract type="html">All active downloads</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSArray *allDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/allDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/setDownloadPath:</TokenIdentifier>
+			<Abstract type="html">The download folder path for all downloads.
+If the path does not exist it will be created.
+In case the creation of that new download path failed the value will remain unchanged.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *downloadPath</Declaration>
+			
+			
+			<Anchor>//api/name/downloadPath</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/downloadPath</TokenIdentifier>
+			<Abstract type="html">The download folder path for all downloads.
+If the path does not exist it will be created.
+In case the creation of that new download path failed the value will remain unchanged.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *downloadPath</Declaration>
+			
+			
+			<Anchor>//api/name/downloadPath</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownloadManager/downloadPath</TokenIdentifier>
+			<Abstract type="html">The download folder path for all downloads.
+If the path does not exist it will be created.
+In case the creation of that new download path failed the value will remain unchanged.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *downloadPath</Declaration>
+			
+			
+			<Anchor>//api/name/downloadPath</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/setResumeDownloads:</TokenIdentifier>
+			<Abstract type="html">If downloads should be resumed if partial downloads found
+Default is NO</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL resumeDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/resumeDownloads</TokenIdentifier>
+			<Abstract type="html">If downloads should be resumed if partial downloads found
+Default is NO</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL resumeDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownloadManager/resumeDownloads</TokenIdentifier>
+			<Abstract type="html">If downloads should be resumed if partial downloads found
+Default is NO</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL resumeDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/setOverwriteFinishedDownloads:</TokenIdentifier>
+			<Abstract type="html">If a downloaded file should be overwritten in case the download is started over
+Default is NO</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL overwriteFinishedDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/overwriteFinishedDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/overwriteFinishedDownloads</TokenIdentifier>
+			<Abstract type="html">If a downloaded file should be overwritten in case the download is started over
+Default is NO</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL overwriteFinishedDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/overwriteFinishedDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownloadManager/overwriteFinishedDownloads</TokenIdentifier>
+			<Abstract type="html">If a downloaded file should be overwritten in case the download is started over
+Default is NO</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL overwriteFinishedDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/overwriteFinishedDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Download manager&apos;s delegate</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageDownloadManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/delegate</TokenIdentifier>
+			<Abstract type="html">Download manager&apos;s delegate</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageDownloadManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownloadManager/delegate</TokenIdentifier>
+			<Abstract type="html">Download manager&apos;s delegate</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageDownloadManagerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/enqueuePackageForDownload:</TokenIdentifier>
+			<Abstract type="html">Creates a new download for a given package.
+A package cannot be enqueued twice as long as it is being downloaded already.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>- (void)enqueuePackageForDownload:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package that should be downloaded</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/enqueuePackageForDownload:</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/cancelDownloadOfPackage:</TokenIdentifier>
+			<Abstract type="html">Cancels a download of a given package. Downloaded data will be deleted.
+Status of package is reset to CCPackageStatusInitial.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>- (void)cancelDownloadOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package that should be cancelled</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/cancelDownloadOfPackage:</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/pauseDownloadOfPackage:</TokenIdentifier>
+			<Abstract type="html">Pause a download of a given package.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseDownloadOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package that should be paused</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pauseDownloadOfPackage:</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/resumeDownloadOfPackage:</TokenIdentifier>
+			<Abstract type="html">Resumes the download of a package given the host accepts range requests.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeDownloadOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package that should be resumed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/resumeDownloadOfPackage:</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/pauseAllDownloads</TokenIdentifier>
+			<Abstract type="html">Pauses all package downloads already enqueued.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseAllDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/pauseAllDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownloadManager/resumeAllDownloads</TokenIdentifier>
+			<Abstract type="html">Resumes all package downloads already enqueued.</Abstract>
+			<DeclaredIn>CCPackageDownloadManager.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeAllDownloads</Declaration>
+			
+			
+			<Anchor>//api/name/resumeAllDownloads</Anchor>
+            <NodeRef refid="111"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCPackageUnzipperDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCPackageUnzipperDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCPackageUnzipperDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="151"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageUnzipperDelegate/unzipFinished:</TokenIdentifier>
+			<Abstract type="html">Only called when the process of unzipping finished successfully</Abstract>
+			<DeclaredIn>CCPackageUnzipperDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)unzipFinished:(CCPackageUnzipper *)packageUnzipper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packageUnzipper</Name>
+					<Abstract type="html">The package unzipper</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unzipFinished:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageUnzipperDelegate/unzipFailed:error:</TokenIdentifier>
+			<Abstract type="html">Only called when the process of unzipping failed</Abstract>
+			<DeclaredIn>CCPackageUnzipperDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)unzipFailed:(CCPackageUnzipper *)packageUnzipper error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packageUnzipper</Name>
+					<Abstract type="html">The package unzipper</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Pointer to an error object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unzipFailed:error:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageUnzipperDelegate/unzipProgress:unzippedBytes:totalBytes:</TokenIdentifier>
+			<Abstract type="html">Called whenever the process of unzipping reports a progress in bytes</Abstract>
+			<DeclaredIn>CCPackageUnzipperDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)unzipProgress:(CCPackageUnzipper *)packageUnzipper unzippedBytes:(NSUInteger)unzippedBytes totalBytes:(NSUInteger)totalBytes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packageUnzipper</Name>
+					<Abstract type="html">The package unzipper</Abstract>
+				</Parameter><Parameter>
+					<Name>unzippedBytes</Name>
+					<Abstract type="html">Unzip progress in bytes</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytes</Name>
+					<Abstract type="html">Total size of the unzipping operation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/unzipProgress:unzippedBytes:totalBytes:</Anchor>
+            <NodeRef refid="151"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

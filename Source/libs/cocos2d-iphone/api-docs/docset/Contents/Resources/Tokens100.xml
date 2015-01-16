@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCLightCollection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCLightCollection</TokenIdentifier>
+			<Abstract type="html">CCLightCollection is a container for light nodes within the scene.  It allows
+CCEffectLighting to find the most influential N lights given the relative positions
+of a node and the contained lights.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+            
+			
+			<NodeRef refid="100"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightCollection/init</TokenIdentifier>
+			<Abstract type="html">Initializes an empty CCLightCollection object.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">The CCLightCollection object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightCollection/addLight:</TokenIdentifier>
+			<Abstract type="html">Adds a light to the collection.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+			
+			<Declaration>- (void)addLight:(CCLightNode *)light</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>light</Name>
+					<Abstract type="html">CCLightNode to add.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addLight:</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightCollection/removeLight:</TokenIdentifier>
+			<Abstract type="html">Removes a light from the collection.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+			
+			<Declaration>- (void)removeLight:(CCLightNode *)light</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>light</Name>
+					<Abstract type="html">The light node to remove.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeLight:</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightCollection/removeAllLights</TokenIdentifier>
+			<Abstract type="html">Removes all lights from the collection.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllLights</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllLights</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightCollection/findClosestKLights:toPoint:withMask:</TokenIdentifier>
+			<Abstract type="html">Finds the closest lights to the supplied point.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)findClosestKLights:(NSUInteger)count toPoint:(CGPoint)point withMask:(CCLightGroupMask)mask</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>count</Name>
+					<Abstract type="html">The number of lights to return.</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The reference point.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/findClosestKLights:toPoint:withMask:</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLightCollection/maskForGroups:</TokenIdentifier>
+			<Abstract type="html">Convert an array of light group identifiers into a group bitmask.
+The categories are retained and assigned indexes.</Abstract>
+			<DeclaredIn>CCLightCollection.h</DeclaredIn>
+			
+			<Declaration>- (CCLightGroupMask)maskForGroups:(NSArray *)groups</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>categories</Name>
+					<Abstract type="html">Array of categories.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Bitmask.</Abstract></ReturnValue>
+			<Anchor>//api/name/maskForGroups:</Anchor>
+            <NodeRef refid="100"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

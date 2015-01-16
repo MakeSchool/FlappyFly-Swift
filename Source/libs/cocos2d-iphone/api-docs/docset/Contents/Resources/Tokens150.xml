@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCPackageManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCPackageManagerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="150"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageInstallationFinished:</TokenIdentifier>
+			<Abstract type="html">Only called when the full process of downloading, unzipping and installation completed successfully</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageInstallationFinished:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the installation finished</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageInstallationFinished:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageInstallationFailed:error:</TokenIdentifier>
+			<Abstract type="html">Only called when something went wrong during installation</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageInstallationFailed:(CCPackage *)package error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the installation failed</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Pointer to an error object*</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageInstallationFailed:error:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageDownloadFinished:</TokenIdentifier>
+			<Abstract type="html">Called when a download of a package finished successfully</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageDownloadFinished:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the download finished</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageDownloadFinished:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageDownloadFailed:error:</TokenIdentifier>
+			<Abstract type="html">Only called when a download of a package failed, see error pointer.</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageDownloadFailed:(CCPackage *)package error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the download failed</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Pointer to an error object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageDownloadFailed:error:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageDownloadProgress:downloadedBytes:totalBytes:</TokenIdentifier>
+			<Abstract type="html">Called whenever the download of a package received bytes.
+Note: Total bytes can be 0 throughout a download if the response does not contain a Content-Length header.</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageDownloadProgress:(CCPackage *)package downloadedBytes:(NSUInteger)downloadedBytes totalBytes:(NSUInteger)totalBytes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the download progress occured</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadedBytes</Name>
+					<Abstract type="html">Download progress in bytes</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytes</Name>
+					<Abstract type="html">Total size of the download in bytes</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageDownloadProgress:downloadedBytes:totalBytes:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageUnzippingFinished:</TokenIdentifier>
+			<Abstract type="html">Only called when the process of unzipping finished successfully</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageUnzippingFinished:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the unzip process finished</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageUnzippingFinished:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageUnzippingFailed:error:</TokenIdentifier>
+			<Abstract type="html">Only called when the process of unzipping failed</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageUnzippingFailed:(CCPackage *)package error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the unzip process failed</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Pointer to an error object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageUnzippingFailed:error:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/packageUnzippingProgress:unzippedBytes:totalBytes:</TokenIdentifier>
+			<Abstract type="html">Called whenever the process of unzipping reports a progress in bytes</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)packageUnzippingProgress:(CCPackage *)package unzippedBytes:(NSUInteger)unzippedBytes totalBytes:(NSUInteger)totalBytes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the unzip progress occured</Abstract>
+				</Parameter><Parameter>
+					<Name>unzippedBytes</Name>
+					<Abstract type="html">Unzip progress in bytes</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytes</Name>
+					<Abstract type="html">Total size of the unzipping operation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/packageUnzippingProgress:unzippedBytes:totalBytes:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/customFolderName:packageContents:</TokenIdentifier>
+			<Abstract type="html">When a package is installed the root object of an unzipped package should be a folder named with the
+standard identifier(&lt;NAME&gt;-&lt;OS&gt;-&lt;RESOLUTION&gt;).</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)customFolderName:(CCPackage *)package packageContents:(NSArray *)packageContents</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the unzipped folder name should be determined</Abstract>
+				</Parameter><Parameter>
+					<Name>packageContens</Name>
+					<Abstract type="html">A list of URLs of unzipped package&apos;s first level directory</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The folder name of the package</Abstract></ReturnValue>
+			<Anchor>//api/name/customFolderName:packageContents:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/passwordForPackageZipFile:</TokenIdentifier>
+			<Abstract type="html">Provide this method if you want to set a password to unzip a protected zip archive.</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)passwordForPackageZipFile:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package for which the password should be set</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The password to be used to unzip a package archive</Abstract></ReturnValue>
+			<Anchor>//api/name/passwordForPackageZipFile:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageManagerDelegate/request:ofPackage:</TokenIdentifier>
+			<Abstract type="html">Provides the request before it is sent to let delegate adjust headers etc.
+If there is a partial download which should be resumed a Range header will be set after this invocation.</Abstract>
+			<DeclaredIn>CCPackageManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)request:(NSMutableURLRequest *)request ofPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The request object that will be used for the download</Abstract>
+				</Parameter><Parameter>
+					<Name>download</Name>
+					<Abstract type="html">The download object which will start with the given request</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:ofPackage:</Anchor>
+            <NodeRef refid="150"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

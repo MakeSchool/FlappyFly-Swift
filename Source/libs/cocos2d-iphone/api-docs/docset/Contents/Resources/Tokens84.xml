@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCEffectDropShadow.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCEffectDropShadow</TokenIdentifier>
+			<Abstract type="html">CCEffectDropShadow create a drop shadow.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+            
+			
+			<NodeRef refid="84"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/setShadowOffset:</TokenIdentifier>
+			<Abstract type="html">Adjust which direction the shadow should point. A value of (5.0, -5,0) will
+place the drop shadow at the bottom right.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GLKVector2 shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/shadowOffset</TokenIdentifier>
+			<Abstract type="html">Adjust which direction the shadow should point. A value of (5.0, -5,0) will
+place the drop shadow at the bottom right.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GLKVector2 shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEffectDropShadow/shadowOffset</TokenIdentifier>
+			<Abstract type="html">Adjust which direction the shadow should point. A value of (5.0, -5,0) will
+place the drop shadow at the bottom right.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GLKVector2 shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/setShadowColor:</TokenIdentifier>
+			<Abstract type="html">Color of the shadow,
+[CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/shadowColor</TokenIdentifier>
+			<Abstract type="html">Color of the shadow,
+[CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEffectDropShadow/shadowColor</TokenIdentifier>
+			<Abstract type="html">Color of the shadow,
+[CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/setBlurRadius:</TokenIdentifier>
+			<Abstract type="html">The size of the blur. This value is in the range [0..6] anything higher than 6 pixel blur radius will yeild a performance decrease.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/blurRadius</TokenIdentifier>
+			<Abstract type="html">The size of the blur. This value is in the range [0..6] anything higher than 6 pixel blur radius will yeild a performance decrease.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEffectDropShadow/blurRadius</TokenIdentifier>
+			<Abstract type="html">The size of the blur. This value is in the range [0..6] anything higher than 6 pixel blur radius will yeild a performance decrease.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSUInteger blurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/blurRadius</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/init</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectDropShadow object with a (5, -5) black drop shadow offset .</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">The CCEffectDropShadow object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/initWithShadowOffset:shadowColor:blurRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectDropShadow object with the supplied parameters.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithShadowOffset:(GLKVector2)shadowOffset shadowColor:(CCColor *)shadowColor blurRadius:(NSUInteger)blurRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>shadowOffset</Name>
+					<Abstract type="html">A value of (5.0, -5,0) will place the drop shadow at the bottom right.</Abstract>
+				</Parameter><Parameter>
+					<Name>shadowColor</Name>
+					<Abstract type="html">Color of the shadow, a [CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+				</Parameter><Parameter>
+					<Name>blurRadius</Name>
+					<Abstract type="html">The size of the blur. This value is in the range [0..6] anything higher than 6 pixel blur radius will yeild a performance decrease.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCEffectDropShadow object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithShadowOffset:shadowColor:blurRadius:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCEffectDropShadow/effectWithShadowOffset:shadowColor:blurRadius:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectDropShadow object with the supplied parameters.</Abstract>
+			<DeclaredIn>CCEffectDropShadow.h</DeclaredIn>
+			
+			<Declaration>+ (id)effectWithShadowOffset:(GLKVector2)shadowOffset shadowColor:(CCColor *)shadowColor blurRadius:(NSUInteger)blurRadius</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>shadowOffset</Name>
+					<Abstract type="html">A value of (5.0, -5,0) will place the drop shadow at the bottom right.</Abstract>
+				</Parameter><Parameter>
+					<Name>shadowColor</Name>
+					<Abstract type="html">Color of the shadow, a [CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+				</Parameter><Parameter>
+					<Name>blurRadius</Name>
+					<Abstract type="html">The size of the blur. This value is in the range [0..6] anything higher than 6 pixel blur radius will yeild a performance decrease.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCEffectDropShadow object.</Abstract></ReturnValue>
+			<Anchor>//api/name/effectWithShadowOffset:shadowColor:blurRadius:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectDropShadow/initWithShadowOffset:shadowColor:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectDropShadow object with the supplied parameters.</Abstract>
+			<DeclaredIn>CCEffectDropShadow_dist.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithShadowOffset:(GLKVector2)shadowOffset shadowColor:(CCColor *)shadowColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>shadowOffset</Name>
+					<Abstract type="html">A value of (5.0, -5,0) will place the drop shadow at the bottom right.</Abstract>
+				</Parameter><Parameter>
+					<Name>shadowColor</Name>
+					<Abstract type="html">Color of the shadow, a [CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCEffectDropShadow object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithShadowOffset:shadowColor:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCEffectDropShadow/effectWithShadowOffset:shadowColor:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectDropShadow object with the supplied parameters.</Abstract>
+			<DeclaredIn>CCEffectDropShadow_dist.h</DeclaredIn>
+			
+			<Declaration>+ (id)effectWithShadowOffset:(GLKVector2)shadowOffset shadowColor:(CCColor *)shadowColor</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>shadowOffset</Name>
+					<Abstract type="html">A value of (5.0, -5,0) will place the drop shadow at the bottom right.</Abstract>
+				</Parameter><Parameter>
+					<Name>shadowColor</Name>
+					<Abstract type="html">Color of the shadow, a [CCColor blackColor] will result in an opaque black drop shadow.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCEffectDropShadow object.</Abstract></ReturnValue>
+			<Anchor>//api/name/effectWithShadowOffset:shadowColor:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCDirectorView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCDirectorView</TokenIdentifier>
+			<Abstract type="html">Protocol for a view that CCDirector will use to render into.</Abstract>
+			<DeclaredIn>CCDirectorView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="147"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCDirectorView/beginFrame</TokenIdentifier>
+			<Abstract type="html">Prepare the view to render a new frame.</Abstract>
+			<DeclaredIn>CCDirectorView.h</DeclaredIn>
+			
+			<Declaration>- (void)beginFrame</Declaration>
+			
+			
+			<Anchor>//api/name/beginFrame</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCDirectorView/presentFrame</TokenIdentifier>
+			<Abstract type="html">Present the current frame to the display.</Abstract>
+			<DeclaredIn>CCDirectorView.h</DeclaredIn>
+			
+			<Declaration>- (void)presentFrame</Declaration>
+			
+			
+			<Anchor>//api/name/presentFrame</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCDirectorView/addFrameCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Schedule a block to be invoked when the frame completes.
+The block may not be invoked from the main thread.</Abstract>
+			<DeclaredIn>CCDirectorView.h</DeclaredIn>
+			
+			<Declaration>- (void)addFrameCompletionHandler:(dispatch_block_t)handler</Declaration>
+			
+			
+			<Anchor>//api/name/addFrameCompletionHandler:</Anchor>
+            <NodeRef refid="147"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

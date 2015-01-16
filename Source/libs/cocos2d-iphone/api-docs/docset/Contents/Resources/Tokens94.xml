@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCGraphicsBuffer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCGraphicsBuffer</TokenIdentifier>
+			<Abstract type="html">Internal class used to abstract GPU buffers. (vertex, index buffers, etc)
+This is an abstract class instead of a protocol because of CCGraphicsBufferPushElements().</Abstract>
+			<DeclaredIn>CCRendererBasicTypes_Private.h</DeclaredIn>
+            
+			
+			<NodeRef refid="94"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGraphicsBuffer/initWithCapacity:elementSize:type:</TokenIdentifier>
+			<Abstract type="html">Pointer to the buffer memory.
+Only valid between prepare and commmit method calls.</Abstract>
+			<DeclaredIn>CCRendererBasicTypes_Private.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithCapacity:(NSUInteger)capacity elementSize:(size_t)elementSize type:(CCGraphicsBufferType)type</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCapacity:elementSize:type:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

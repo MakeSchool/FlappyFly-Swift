@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSValue+CCRenderer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSValue(CCRenderer)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSValue+CCRenderer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="145"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSValue/valueWithGLKVector2:</TokenIdentifier>
+			<Abstract type="html">Create an NSValue wrapping a GLKVector2.</Abstract>
+			<DeclaredIn>NSValue+CCRenderer.h</DeclaredIn>
+			
+			<Declaration>+ (NSValue *)valueWithGLKVector2:(GLKVector2)vector</Declaration>
+			
+			
+			<Anchor>//api/name/valueWithGLKVector2:</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSValue/valueWithGLKVector3:</TokenIdentifier>
+			<Abstract type="html">Create an NSValue wrapping a GLKVector3.</Abstract>
+			<DeclaredIn>NSValue+CCRenderer.h</DeclaredIn>
+			
+			<Declaration>+ (NSValue *)valueWithGLKVector3:(GLKVector3)vector</Declaration>
+			
+			
+			<Anchor>//api/name/valueWithGLKVector3:</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSValue/valueWithGLKVector4:</TokenIdentifier>
+			<Abstract type="html">Create an NSValue wrapping a GLKVector4.</Abstract>
+			<DeclaredIn>NSValue+CCRenderer.h</DeclaredIn>
+			
+			<Declaration>+ (NSValue *)valueWithGLKVector4:(GLKVector4)vector</Declaration>
+			
+			
+			<Anchor>//api/name/valueWithGLKVector4:</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSValue/valueWithGLKMatrix4:</TokenIdentifier>
+			<Abstract type="html">Create an NSValue wrapping a GLKMatrix4.</Abstract>
+			<DeclaredIn>NSValue+CCRenderer.h</DeclaredIn>
+			
+			<Declaration>+ (NSValue *)valueWithGLKMatrix4:(GLKMatrix4)matrix</Declaration>
+			
+			
+			<Anchor>//api/name/valueWithGLKMatrix4:</Anchor>
+            <NodeRef refid="145"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCPackageDownload.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCPackageDownload</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+            
+			
+			<NodeRef refid="110"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/setLocalURL:</TokenIdentifier>
+			<Abstract type="html">The URL of the package download, includes the filename</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSURL *localURL</Declaration>
+			
+			
+			<Anchor>//api/name/localURL</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/localURL</TokenIdentifier>
+			<Abstract type="html">The URL of the package download, includes the filename</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSURL *localURL</Declaration>
+			
+			
+			<Anchor>//api/name/localURL</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownload/localURL</TokenIdentifier>
+			<Abstract type="html">The URL of the package download, includes the filename</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy, readonly) NSURL *localURL</Declaration>
+			
+			
+			<Anchor>//api/name/localURL</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/setPackage:</TokenIdentifier>
+			<Abstract type="html">The package being downloaded</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CCPackage *package</Declaration>
+			
+			
+			<Anchor>//api/name/package</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/package</TokenIdentifier>
+			<Abstract type="html">The package being downloaded</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CCPackage *package</Declaration>
+			
+			
+			<Anchor>//api/name/package</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownload/package</TokenIdentifier>
+			<Abstract type="html">The package being downloaded</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) CCPackage *package</Declaration>
+			
+			
+			<Anchor>//api/name/package</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/setTotalBytes:</TokenIdentifier>
+			<Abstract type="html">Total bytes of the download. Might be 0 if no Content-Lenght header is sent by the
+host.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger totalBytes</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytes</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/totalBytes</TokenIdentifier>
+			<Abstract type="html">Total bytes of the download. Might be 0 if no Content-Lenght header is sent by the
+host.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger totalBytes</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytes</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownload/totalBytes</TokenIdentifier>
+			<Abstract type="html">Total bytes of the download. Might be 0 if no Content-Lenght header is sent by the
+host.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger totalBytes</Declaration>
+			
+			
+			<Anchor>//api/name/totalBytes</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/setDownloadedBytes:</TokenIdentifier>
+			<Abstract type="html">Bytes downloaded.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger downloadedBytes</Declaration>
+			
+			
+			<Anchor>//api/name/downloadedBytes</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/downloadedBytes</TokenIdentifier>
+			<Abstract type="html">Bytes downloaded.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger downloadedBytes</Declaration>
+			
+			
+			<Anchor>//api/name/downloadedBytes</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownload/downloadedBytes</TokenIdentifier>
+			<Abstract type="html">Bytes downloaded.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger downloadedBytes</Declaration>
+			
+			
+			<Anchor>//api/name/downloadedBytes</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate of the download.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageDownloadDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate of the download.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageDownloadDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPackageDownload/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate of the download.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;CCPackageDownloadDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/initWithPackage:localURL:</TokenIdentifier>
+			<Abstract type="html">Returns a new instance of a CCPackageDownload</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithPackage:(CCPackage *)package localURL:(NSURL *)localURL</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package that should be downloaded</Abstract>
+				</Parameter><Parameter>
+					<Name>localURL</Name>
+					<Abstract type="html">The URL of the package download, includes the filename</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A new instance of a CCPackageDownload</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPackage:localURL:</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/start</TokenIdentifier>
+			<Abstract type="html">Starts the download, if there is a downloaded data the delegate is asked if the download should be resumed</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/cancel</TokenIdentifier>
+			<Abstract type="html">Stops the download and deletes the download file
+Status of package is reset to CCPackageStatusInitial.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>- (void)cancel</Declaration>
+			
+			
+			<Anchor>//api/name/cancel</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/pause</TokenIdentifier>
+			<Abstract type="html">Pauses the download.</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPackageDownload/resume</TokenIdentifier>
+			<Abstract type="html">Resumes a download, otherwise starts from the beginning</Abstract>
+			<DeclaredIn>CCPackageDownload.h</DeclaredIn>
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

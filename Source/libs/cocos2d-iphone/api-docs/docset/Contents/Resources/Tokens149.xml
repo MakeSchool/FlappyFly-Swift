@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCPackageDownloadManagerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCPackageDownloadManagerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCPackageDownloadManagerDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="149"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageDownloadManagerDelegate/downloadFinishedOfPackage:</TokenIdentifier>
+			<Abstract type="html">Called when the http request of a package download finishes successfully</Abstract>
+			<DeclaredIn>CCPackageDownloadManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)downloadFinishedOfPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package downloaded successfully</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadFinishedOfPackage:</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageDownloadManagerDelegate/downloadFailedOfPackage:error:</TokenIdentifier>
+			<Abstract type="html">Called when the http request of a package download failed</Abstract>
+			<DeclaredIn>CCPackageDownloadManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)downloadFailedOfPackage:(CCPackage *)package error:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package which download failed</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Error pointer to an error object containing details</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadFailedOfPackage:error:</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageDownloadManagerDelegate/downloadProgressOfPackage:downloadedBytes:totalBytes:</TokenIdentifier>
+			<Abstract type="html">Returns the bytes downloaded and the total bytes of a package download.
+Total bytes can be 0 throughout a download if the response does not contain a Content-Length header.</Abstract>
+			<DeclaredIn>CCPackageDownloadManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)downloadProgressOfPackage:(CCPackage *)package downloadedBytes:(NSUInteger)downloadedBytes totalBytes:(NSUInteger)totalBytes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>package</Name>
+					<Abstract type="html">The package which download reported progress</Abstract>
+				</Parameter><Parameter>
+					<Name>downloadedBytes</Name>
+					<Abstract type="html">bytes downloaded</Abstract>
+				</Parameter><Parameter>
+					<Name>totalBytes</Name>
+					<Abstract type="html">Total bytes downloaded. Total bytes can be 0 throughout a download if the response does not contain a Content-Length header.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/downloadProgressOfPackage:downloadedBytes:totalBytes:</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCPackageDownloadManagerDelegate/request:ofPackage:</TokenIdentifier>
+			<Abstract type="html">Provides the request before it is sent to let delegate adjust headers etc.
+If there is a partial download which should be resumed a Range header will be set after this invocation.</Abstract>
+			<DeclaredIn>CCPackageDownloadManagerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)request:(NSMutableURLRequest *)request ofPackage:(CCPackage *)package</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">The request object that will be used for the download</Abstract>
+				</Parameter><Parameter>
+					<Name>download</Name>
+					<Abstract type="html">The download object which will start with the given request</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/request:ofPackage:</Anchor>
+            <NodeRef refid="149"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCEffectLighting.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCEffectLighting</TokenIdentifier>
+			<Abstract type="html">CCEffectLighting uses a normal map and a collection of light nodes to compute the Phong
+lighting on the affected node.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/setGroups:</TokenIdentifier>
+			<Abstract type="html">The groups that this effect belongs to. Instances of CCLightNode also
+belong to groups. The intersection of a light effect&apos;s groups and a light
+node&apos;s groups determine whether or not a light node contributes to a light
+effect.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/groups</TokenIdentifier>
+			<Abstract type="html">The groups that this effect belongs to. Instances of CCLightNode also
+belong to groups. The intersection of a light effect&apos;s groups and a light
+node&apos;s groups determine whether or not a light node contributes to a light
+effect.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEffectLighting/groups</TokenIdentifier>
+			<Abstract type="html">The groups that this effect belongs to. Instances of CCLightNode also
+belong to groups. The intersection of a light effect&apos;s groups and a light
+node&apos;s groups determine whether or not a light node contributes to a light
+effect.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/setSpecularColor:</TokenIdentifier>
+			<Abstract type="html">The specular color of the affected node. This color is combined with the light&apos;s
+color and the effect&apos;s shininess value to determine the color of specular highlights
+that appear when lighting shiny surfaces.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *specularColor</Declaration>
+			
+			
+			<Anchor>//api/name/specularColor</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/specularColor</TokenIdentifier>
+			<Abstract type="html">The specular color of the affected node. This color is combined with the light&apos;s
+color and the effect&apos;s shininess value to determine the color of specular highlights
+that appear when lighting shiny surfaces.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *specularColor</Declaration>
+			
+			
+			<Anchor>//api/name/specularColor</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEffectLighting/specularColor</TokenIdentifier>
+			<Abstract type="html">The specular color of the affected node. This color is combined with the light&apos;s
+color and the effect&apos;s shininess value to determine the color of specular highlights
+that appear when lighting shiny surfaces.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCColor *specularColor</Declaration>
+			
+			
+			<Anchor>//api/name/specularColor</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/setShininess:</TokenIdentifier>
+			<Abstract type="html">The shininess of the affected node. This value controls the tightness of specular
+highlights. 0 results in no specular contribution to the lighting equations and
+increasing values result in tighter highlights.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float shininess</Declaration>
+			
+			
+			<Anchor>//api/name/shininess</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/shininess</TokenIdentifier>
+			<Abstract type="html">The shininess of the affected node. This value controls the tightness of specular
+highlights. 0 results in no specular contribution to the lighting equations and
+increasing values result in tighter highlights.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float shininess</Declaration>
+			
+			
+			<Anchor>//api/name/shininess</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEffectLighting/shininess</TokenIdentifier>
+			<Abstract type="html">The shininess of the affected node. This value controls the tightness of specular
+highlights. 0 results in no specular contribution to the lighting equations and
+increasing values result in tighter highlights.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float shininess</Declaration>
+			
+			
+			<Anchor>//api/name/shininess</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/init</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectLighting object.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">The CCEffectLighting object.</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEffectLighting/initWithGroups:specularColor:shininess:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCEffectLighting object with the supplied parameters.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithGroups:(NSArray *)groups specularColor:(CCColor *)specularColor shininess:(float)shininess</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groups</Name>
+					<Abstract type="html">The light groups this effect belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>specularColor</Name>
+					<Abstract type="html">The specular color of this effect.</Abstract>
+				</Parameter><Parameter>
+					<Name>shininess</Name>
+					<Abstract type="html">The overall shininess of the effect.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCEffectLighting object.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithGroups:specularColor:shininess:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCEffectLighting/effectWithGroups:specularColor:shininess:</TokenIdentifier>
+			<Abstract type="html">Creates and initializes a CCEffectLighting object with the supplied parameters.</Abstract>
+			<DeclaredIn>CCEffectLighting.h</DeclaredIn>
+			
+			<Declaration>+ (id)effectWithGroups:(NSArray *)groups specularColor:(CCColor *)specularColor shininess:(float)shininess</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groups</Name>
+					<Abstract type="html">The light groups this effect belongs to.</Abstract>
+				</Parameter><Parameter>
+					<Name>specularColor</Name>
+					<Abstract type="html">The specular color of this effect.</Abstract>
+				</Parameter><Parameter>
+					<Name>shininess</Name>
+					<Abstract type="html">The overall shininess of the effect.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The CCEffectLighting object.</Abstract></ReturnValue>
+			<Anchor>//api/name/effectWithGroups:specularColor:shininess:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
