@@ -4,33 +4,33 @@ class MainScene: CCNode, CCPhysicsCollisionDelegate
 {
     var _scrollSpeed : CGFloat = 80
     
-    var hero: CCSprite!
-    var physicsNode: CCPhysicsNode!
+    var _hero : CCSprite!
+    var _physicsNode : CCPhysicsNode!
     
-    var ground1: CCSprite!
-    var ground2: CCSprite!
-    var grounds: [CCSprite] = []  // initializes an empty array
+    var _ground1 : CCSprite!
+    var _ground2 : CCSprite!
+    var _grounds : [CCSprite] = []  // initializes an empty array
 
-    var sinceTouch: CCTime = 0
+    var _sinceTouch : CCTime = 0
     
-    var obstacles: [CCNode] = []
-    let firstObstaclePosition: CGFloat = 280
-    let distanceBetweenObstacles: CGFloat = 160
+    var _obstacles : [CCNode] = []
+    let _firstObstaclePosition : CGFloat = 280
+    let _distanceBetweenObstacles : CGFloat = 160
 
-    var obstaclesLayer: CCNode!
+    var _obstaclesLayer : CCNode!
 
-    var restartButton: CCButton!
-    var isGameOver = false
+    var _restartButton : CCButton!
+    var _gameOver = false
 
-    var points: NSInteger = 0
-    var scoreLabel: CCLabelTTF!
+    var _points : NSInteger = 0
+    var _scoreLabel : CCLabelTTF!
     
     func didLoadFromCCB() {
-        physicsNode.collisionDelegate = self
+        _physicsNode.collisionDelegate = self
         
         self.userInteractionEnabled = true
-        grounds.append(ground1)
-        grounds.append(ground2)
+        _grounds.append(_ground1)
+        _grounds.append(_ground2)
 
         // spawn the first obstacles
         self.spawnNewObstacle()
@@ -39,17 +39,17 @@ class MainScene: CCNode, CCPhysicsCollisionDelegate
     }
     
     override func update(delta: CCTime) {
-        hero.position = ccp(hero.position.x + _scrollSpeed * CGFloat(delta), hero.position.y)
-        physicsNode.position = ccp(physicsNode.position.x - _scrollSpeed * CGFloat(delta), physicsNode.position.y)
+        _hero.position = ccp(_hero.position.x + _scrollSpeed * CGFloat(delta), _hero.position.y)
+        _physicsNode.position = ccp(_physicsNode.position.x - _scrollSpeed * CGFloat(delta), _physicsNode.position.y)
         
         // clamp physics node position to the next nearest pixel value to avoid black line artifacts
         var scale = CCDirector.sharedDirector().contentScaleFactor
-        physicsNode.position = ccp(round(physicsNode.position.x * scale) / scale, round(physicsNode.position.y * scale) / scale)
+        _physicsNode.position = ccp(round(_physicsNode.position.x * scale) / scale, round(_physicsNode.position.y * scale) / scale)
         
         // loop the ground whenever a ground image was moved entirely outside the screen
-        for ground in grounds {
+        for ground in _grounds {
             // get the world position of the ground
-            let groundWorldPosition = physicsNode.convertToWorldSpace(ground.position)
+            let groundWorldPosition = _physicsNode.convertToWorldSpace(ground.position)
             // get the screen position of the ground
             let groundScreenPosition = self.convertToNodeSpace(groundWorldPosition)
             // if the left corner is one complete width off the screen, move it to the right
@@ -59,31 +59,31 @@ class MainScene: CCNode, CCPhysicsCollisionDelegate
         }
 
         // clamp velocity
-        let velocityY = clampf(Float(hero.physicsBody.velocity.y), -Float(CGFloat.max), 200)
-        hero.physicsBody.velocity = ccp(0, CGFloat(velocityY))
+        let velocityY = clampf(Float(_hero.physicsBody.velocity.y), -Float(CGFloat.max), 200)
+        _hero.physicsBody.velocity = ccp(0, CGFloat(velocityY))
 
         // clamp angular velocity
-        sinceTouch += delta
-        hero.rotation = clampf(hero.rotation, -30, 90)
-        if (hero.physicsBody.allowsRotation) {
-            let angularVelocity = clampf(Float(hero.physicsBody.angularVelocity), -2, 1)
-            hero.physicsBody.angularVelocity = CGFloat(angularVelocity)
+        _sinceTouch += delta
+        _hero.rotation = clampf(_hero.rotation, -30, 90)
+        if (_hero.physicsBody.allowsRotation) {
+            let angularVelocity = clampf(Float(_hero.physicsBody.angularVelocity), -2, 1)
+            _hero.physicsBody.angularVelocity = CGFloat(angularVelocity)
         }
         // rotate downwards if enough time passed since last touch
-        if (sinceTouch > 0.5) {
+        if (_sinceTouch > 0.5) {
             let impulse = -20000.0 * delta
-            hero.physicsBody.applyAngularImpulse(CGFloat(impulse))
+            _hero.physicsBody.applyAngularImpulse(CGFloat(impulse))
         }
         
         // checking for removable obstacles
-        for obstacle in obstacles.reverse() {
-            let obstacleWorldPosition = physicsNode.convertToWorldSpace(obstacle.position)
+        for obstacle in _obstacles.reverse() {
+            let obstacleWorldPosition = _physicsNode.convertToWorldSpace(obstacle.position)
             let obstacleScreenPosition = self.convertToNodeSpace(obstacleWorldPosition)
             
             // obstacle moved past left side of screen?
             if obstacleScreenPosition.x < (-obstacle.contentSize.width) {
                 obstacle.removeFromParent()
-                obstacles.removeAtIndex(find(obstacles, obstacle)!)
+                _obstacles.removeAtIndex(find(_obstacles, obstacle)!)
                 
                 // for each removed obstacle, add a new one
                 self.spawnNewObstacle()
@@ -92,32 +92,32 @@ class MainScene: CCNode, CCPhysicsCollisionDelegate
     }
     
     override func touchBegan(touch: CCTouch!, withEvent event: CCTouchEvent!) {
-        if (isGameOver == false) {
+        if (_gameOver == false) {
             // move up and rotate
-            hero.physicsBody.applyImpulse(ccp(0, 400))
-            hero.physicsBody.applyAngularImpulse(10000)
-            sinceTouch = 0
+            _hero.physicsBody.applyImpulse(ccp(0, 400))
+            _hero.physicsBody.applyAngularImpulse(10000)
+            _sinceTouch = 0
         }
     }
 
     func spawnNewObstacle() {
-        var prevObstaclePos = firstObstaclePosition
-        if obstacles.count > 0 {
-            prevObstaclePos = obstacles.last!.position.x
+        var prevObstaclePos = _firstObstaclePosition
+        if _obstacles.count > 0 {
+            prevObstaclePos = _obstacles.last!.position.x
         }
         
         // create and add a new obstacle
         let obstacle = CCBReader.load("Obstacle") as Obstacle
-        obstacle.position = ccp(prevObstaclePos + distanceBetweenObstacles, 0)
+        obstacle.position = ccp(prevObstaclePos + _distanceBetweenObstacles, 0)
         obstacle.setupRandomPosition()
-        obstaclesLayer.addChild(obstacle)
-        obstacles.append(obstacle)
+        _obstaclesLayer.addChild(obstacle)
+        _obstacles.append(obstacle)
     }
 
     func ccPhysicsCollisionBegin(pair: CCPhysicsCollisionPair!, hero nodeA: CCNode!, goal: CCNode!) -> Bool {
         goal.removeFromParent()
-        points++
-        scoreLabel.string = String(points)
+        _points++
+        _scoreLabel.string = String(_points)
         return true
     }
 
@@ -132,15 +132,15 @@ class MainScene: CCNode, CCPhysicsCollisionDelegate
     }
     
     func gameOver() {
-        if (isGameOver == false) {
-            isGameOver = true
-            restartButton.visible = true
+        if (_gameOver == false) {
+            _gameOver = true
+            _restartButton.visible = true
             _scrollSpeed = 0
-            hero.rotation = 90
-            hero.physicsBody.allowsRotation = false
+            _hero.rotation = 90
+            _hero.physicsBody.allowsRotation = false
             
             // just in case
-            hero.stopAllActions()
+            _hero.stopAllActions()
             
             var move = CCActionEaseBounceOut(action: CCActionMoveBy(duration: 0.2, position: ccp(0, 4)))
             var moveBack = CCActionEaseBounceOut(action: move.reverse())
