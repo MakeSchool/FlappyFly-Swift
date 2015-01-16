@@ -1,29 +1,29 @@
 import Foundation
 
-class MainScene: CCNode, CCPhysicsCollisionDelegate
+class MainScene : CCNode, CCPhysicsCollisionDelegate
 {
-    var _scrollSpeed : CGFloat = 80
+    var _scrollSpeed: CGFloat = 80
     
-    var _hero : CCSprite!
-    var _physicsNode : CCPhysicsNode!
+    var _hero: CCSprite!
+    var _physicsNode: CCPhysicsNode!
     
-    var _ground1 : CCSprite!
-    var _ground2 : CCSprite!
-    var _grounds : [CCSprite] = []  // initializes an empty array
+    var _ground1: CCSprite!
+    var _ground2: CCSprite!
+    var _grounds: [CCSprite] = []  // initializes an empty array
 
-    var _sinceTouch : CCTime = 0
+    var _sinceTouch: CCTime = 0
     
-    var _obstacles : [CCNode] = []
-    let _firstObstaclePosition : CGFloat = 280
-    let _distanceBetweenObstacles : CGFloat = 160
+    var _obstacles: [CCNode] = []
+    let _firstObstaclePosition: CGFloat = 280
+    let _distanceBetweenObstacles: CGFloat = 160
 
-    var _obstaclesLayer : CCNode!
+    var _obstaclesLayer: CCNode!
 
-    var _restartButton : CCButton!
+    var _restartButton: CCButton!
     var _gameOver = false
 
-    var _points : NSInteger = 0
-    var _scoreLabel : CCLabelTTF!
+    var _points: NSInteger = 0
+    var _scoreLabel: CCLabelTTF!
     
     func didLoadFromCCB() {
         _physicsNode.collisionDelegate = self
