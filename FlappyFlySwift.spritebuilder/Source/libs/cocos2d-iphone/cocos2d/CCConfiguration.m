@@ -29,7 +29,8 @@
 #if __CC_PLATFORM_IOS
 #import <UIKit/UIKit.h>		// Needed for UIDevice
 #elif __CC_PLATFORM_ANDROID
-#import <BridgeKitV3/BridgeKit.h> // Needed for AndroidBuild
+#import <AndroidKit/AndroidWindowManager.h>
+#import <AndroidKit/AndroidDisplay.h>
 #endif
 
 #import "Platforms/CCGL.h"
@@ -140,7 +141,8 @@ static char * glExtensions;
 {
 	if(_graphicsAPI == CCGraphicsAPIInvalid){
 #if __CC_METAL_SUPPORTED_AND_ENABLED
-		if(NSProtocolFromString(@"MTLDevice") && !getenv("CC_FORCE_GL")){
+		// Metal is weakly linked. Check that the function exists AND that it returns non-nil.
+		if(MTLCreateSystemDefaultDevice && MTLCreateSystemDefaultDevice() && !getenv("CC_FORCE_GL")){
 			CCGraphicsBufferClass = NSClassFromString(@"CCGraphicsBufferMetal");
 			CCGraphicsBufferBindingsClass = NSClassFromString(@"CCGraphicsBufferBindingsMetal");
 			CCRenderStateClass = NSClassFromString(@"CCRenderStateMetal");
@@ -187,7 +189,8 @@ static char * glExtensions;
 #if __CC_PLATFORM_ANDROID
     
     AndroidDisplayMetrics *metrics = [[AndroidDisplayMetrics alloc] init];
-    [[CCActivity currentActivity].windowManager.defaultDisplay getMetrics:metrics];
+    [[CCActivity currentActivity].windowManager.defaultDisplay metricsForDisplayMetrics:metrics];
+
     double yInches= metrics.heightPixels/metrics.ydpi;
     double xInches= metrics.widthPixels/metrics.xdpi;
     double diagonalInches = sqrt(xInches*xInches + yInches*yInches);
@@ -222,9 +225,12 @@ static char * glExtensions;
 	else if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone )
 	{
 		CGSize preferredSize = [[UIScreen mainScreen] preferredMode].size;
+		// This code makes me sad. Very glad it's going away in v4.
 		
-		if(preferredSize.height == 960){
-			return ([UIScreen mainScreen].scale == 2 ? CCDeviceiPhoneRetinaDisplay : CCDeviceiPhone);
+		if(preferredSize.height == 480){
+			return CCDeviceiPhone;
+		} else if(preferredSize.height == 960){
+			return CCDeviceiPhoneRetinaDisplay;
 		} else if(preferredSize.height == 1136){
 			return CCDeviceiPhone5RetinaDisplay;
 		} else {

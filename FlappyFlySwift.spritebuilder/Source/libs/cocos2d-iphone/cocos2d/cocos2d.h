@@ -41,7 +41,7 @@
 
 // 0x00 HI ME LO
 // 00   03 01 01
-#define COCOS2D_VERSION 0x00030401
+#define COCOS2D_VERSION 0x00030403
 #define COCOS2D_BUILD @"develop"
 //
 // all cocos2d include files
@@ -103,11 +103,11 @@
 #import "CCTiledMapLayer.h"
 #import "CCTiledMapObjectGroup.h"
 #import "CCTransition.h"
-#import "CCEffectOutline.h"
 #import "CCPackageManager.h"
 #import "CCPackage.h"
 
 #if CC_EFFECTS_EXPERIMENTAL
+#import "CCEffectOutline.h"
 #import "CCEffectDFOutline.h"
 #import "CCEffectDistanceField.h"
 #import "CCEffectDFInnerGlow.h"
@@ -167,7 +167,7 @@
 #import "Platforms/Android/CCActivity.h"
 #import "Platforms/Android/CCGLView.h"
 #import "Platforms/Android/CCDirectorAndroid.h"
-#import <BridgeKitV3/BridgeKit.h>
+
 #import <android/native_window.h>
 #import <bridge/runtime.h>
 #endif
