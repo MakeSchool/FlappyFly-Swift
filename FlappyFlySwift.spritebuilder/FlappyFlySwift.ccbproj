@@ -39,7 +39,7 @@
 	<key>publishDirectoryAndroid</key>
 	<string>Source/Resources/Published-Android</string>
 	<key>publishEnabledAndroid</key>
-	<true/>
+	<false/>
 	<key>publishEnablediPhone</key>
 	<true/>
 	<key>publishEnvironment</key>
@@ -84,10 +84,6 @@
 			<integer>2</integer>
 			<key>format_ios</key>
 			<integer>2</integer>
-			<key>format_ios_compress</key>
-			<true/>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
