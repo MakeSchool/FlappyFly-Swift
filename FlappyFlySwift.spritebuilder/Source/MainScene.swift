@@ -107,7 +107,7 @@ class MainScene : CCNode, CCPhysicsCollisionDelegate
         }
         
         // create and add a new obstacle
-        let obstacle = CCBReader.load("Obstacle") as Obstacle
+        let obstacle = CCBReader.load("Obstacle") as! Obstacle
         obstacle.position = ccp(prevObstaclePos + _distanceBetweenObstacles, 0)
         obstacle.setupRandomPosition()
         _obstaclesLayer.addChild(obstacle)
