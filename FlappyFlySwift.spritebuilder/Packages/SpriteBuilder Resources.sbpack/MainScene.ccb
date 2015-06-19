@@ -384,7 +384,7 @@
 						<key>displayName</key>
 						<string>obstacles layer</string>
 						<key>memberVarAssignmentName</key>
-						<string>_obstaclesLayer</string>
+						<string>obstaclesLayer</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>properties</key>
@@ -462,7 +462,7 @@
 						<key>displayName</key>
 						<string>ground1</string>
 						<key>memberVarAssignmentName</key>
-						<string>_ground1</string>
+						<string>ground1</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>physicsBody</key>
@@ -635,7 +635,7 @@
 						<key>displayName</key>
 						<string>ground2</string>
 						<key>memberVarAssignmentName</key>
-						<string>_ground2</string>
+						<string>ground2</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>physicsBody</key>
@@ -808,7 +808,7 @@
 						<key>displayName</key>
 						<string>hero</string>
 						<key>memberVarAssignmentName</key>
-						<string>_hero</string>
+						<string>hero</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>properties</key>
@@ -864,7 +864,7 @@
 				<key>displayName</key>
 				<string>CCPhysicsNode</string>
 				<key>memberVarAssignmentName</key>
-				<string>_physicsNode</string>
+				<string>gamePhysicsNode</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -961,7 +961,7 @@
 				<key>displayName</key>
 				<string>CCButton</string>
 				<key>memberVarAssignmentName</key>
-				<string>_restartButton</string>
+				<string>restartButton</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -1295,7 +1295,7 @@
 				<key>displayName</key>
 				<string>CCLabelTTF</string>
 				<key>memberVarAssignmentName</key>
-				<string>_scoreLabel</string>
+				<string>scoreLabel</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>

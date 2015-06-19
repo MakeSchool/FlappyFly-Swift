@@ -51,7 +51,7 @@
 				<key>displayName</key>
 				<string>pipe_top</string>
 				<key>memberVarAssignmentName</key>
-				<string>_topPipe</string>
+				<string>topPipe</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>physicsBody</key>
@@ -224,7 +224,7 @@
 				<key>displayName</key>
 				<string>pipe_bottom</string>
 				<key>memberVarAssignmentName</key>
-				<string>_bottomPipe</string>
+				<string>bottomPipe</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>physicsBody</key>
@@ -527,8 +527,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
@@ -601,6 +599,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
